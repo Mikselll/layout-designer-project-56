@@ -12,6 +12,8 @@
 
   .pricing__cards {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 45px;
 
     .cards__item {
@@ -62,6 +64,27 @@
         background-image: url("../../images/subscribe_3.png");
         background-size: cover;
       }
+    }
+  }
+}
+
+@media (width <= 414px) {
+  .pricing {
+
+    .pricing__cards {
+      gap: 50px;
+
+      .cards__item {
+        padding-top: 16px;
+
+        h3 {
+          font-size: 16px;
+        }
+      }
+    }
+
+    .pricing__info {
+      max-width: 370px;
     }
   }
 }

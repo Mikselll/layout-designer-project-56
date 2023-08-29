@@ -235,6 +235,8 @@ h2 {
 }
 .pricing .pricing__cards {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 45px;
 }
 .pricing .pricing__cards .cards__item {
@@ -274,6 +276,21 @@ h2 {
 .pricing .pricing__cards .cards__item_premium {
   background-image: url("../../images/subscribe_3.png");
   background-size: cover;
+}
+
+@media (width <= 414px) {
+  .pricing .pricing__cards {
+    gap: 50px;
+  }
+  .pricing .pricing__cards .cards__item {
+    padding-top: 16px;
+  }
+  .pricing .pricing__cards .cards__item h3 {
+    font-size: 16px;
+  }
+  .pricing .pricing__info {
+    max-width: 370px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
