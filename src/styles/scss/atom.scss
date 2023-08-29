@@ -1,0 +1,42 @@
+.position {
+
+  &-absolute {
+    position: absolute;
+  }
+
+  &-relative {
+    position: relative;
+  }
+}
+
+.width-1200 {
+  width: 1200px;
+}
+
+.flex {
+  display: flex;
+
+  &.flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  &.flex-direction-column {
+    flex-direction: column;
+  }
+
+  &.justify-content-center {
+    justify-content: center;
+  }
+
+  &.align-items-center {
+    align-items: center;
+  }
+}
+
+.grid {
+  display: grid;
+}
+
+.gap-24 {
+  gap: 24px;
+}

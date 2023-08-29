@@ -2,5 +2,8 @@
   "devDependencies": {
     "stylelint": "^15.10.3",
     "stylelint-config-standard-scss": "^10.0.0"
+  },
+  "dependencies": {
+    "surge": "^0.23.1"
   }
 }
