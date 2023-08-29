@@ -1,0 +1,67 @@
+.pricing {
+  max-width: 1200px;
+  padding-top: 100px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 45px;
+
+  color: $white;
+  text-align: center;
+
+  .pricing__cards {
+    display: flex;
+    gap: 45px;
+
+    .cards__item {
+      width: 370px;
+      padding: 1.5rem 1.5rem 65px;
+      border-radius: 1rem;
+
+      display: flex;
+      flex-direction: column;
+
+      h3 {
+        margin-bottom: 200px;
+
+        font-size: 1.5rem;
+        font-weight: 400;
+        text-transform: uppercase;
+      }
+
+      .item__price {
+        margin-bottom: 40px;
+
+        font-size: 64px;
+        line-height: 1em;
+
+        span {
+          font-size: 32px;
+          vertical-align: super;
+        }
+      }
+
+      .item__info {
+        margin-top: 65px;
+
+        font-size: 13px;
+      }
+
+      &_free {
+        background-image: url("../../images/subscribe_1.png");
+        background-size: cover;
+      }
+
+      &_standart {
+        background-image: url("../../images/subscribe_2.png");
+        background-size: cover;
+      }
+
+      &_premium {
+        background-image: url("../../images/subscribe_3.png");
+        background-size: cover;
+      }
+    }
+  }
+}
